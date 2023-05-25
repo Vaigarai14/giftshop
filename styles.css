@@ -1,0 +1,204 @@
+.heading {
+    padding: 1em;
+    background: rgba(232, 64, 82, 0.9);
+    width: 100;
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: 'Open Sans', sans-serif;
+font-weight: 150;
+font-size: 20px;
+position: relative;;
+
+}
+img {
+    width: 1.5em;
+    height: 2%;
+    margin: 10px;
+    position: relative;
+    margin-right: 30px;
+    margin-left: 20px;
+}
+.search {
+font-weight:200;
+font-size: 1em;
+background: #f5eeeeef;
+border-radius: 10px;
+position: absolute;
+top: 15px;
+right: 12em;
+width: 20em;
+height: 3em;
+}
+.search1 {
+width:2em;
+height:2em;
+position: absolute;
+right:8em;
+top: 12px;
+    }
+ .btnlogin{
+        width: 8em;
+        height: 2.5em;
+        background-color: black;
+        border-radius: 10em;
+        position:absolute;
+        right: 1em;
+        top: 1.4em;
+
+    }
+.btnlogin,a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav {
+    background-color:rgb(238, 213, 213);
+    font-size: 20px;
+    justify-content: space-evenly;
+    display: flex;
+    gap: 50px;
+    text-align:justify;
+    padding-left: 10em;
+    padding-right: 10em;
+}
+
+.dropdown a{
+    font-size: larger;
+    color: black;
+    font-family: poppins;
+    align-items: center;
+    font-size: 1em;
+}
+.dropdown-item {
+    font-size: 1.2em;
+    color: black;
+    font-family: poppins;
+    align-items: center; 
+}
+.dropdown-menu {
+    background-color: rgb(226, 223, 223);
+}
+.responsive {
+    width: 80%;
+    height: auto;
+    position: relative;
+    top: 1em;
+    left: 5em;
+    margin:5em;
+}
+#grad1 {
+    height: 150px;
+  background-image: linear-gradient(to right, rgba(248,178,212,100), rgba(240,172,205,0));
+}
+
+.gift {
+    width: 15em;
+    height:auto;
+    position: relative;
+    top:1.5em;
+    margin-left: 34em;;  
+}
+.unique {
+    width: 30%;
+    position: relative;
+    margin-left: 50em;
+    bottom: 5em;
+    color:rgb(175, 59, 79);
+    text-shadow: 1px 1px 2px rgb(228, 219, 219), 0 0 25px rgb(202, 150, 159)
+
+}
+.trend {
+    font-size: 1em;
+    font-weight: 300px;
+    position: relative;
+    left: 8em;
+}
+.image{
+    position: relative;
+    left: 1em;
+    margin:5em;
+    display: inline-block; 
+    justify-items: center;
+    gap: 30px;
+    transform: scale(0.8);}
+
+.display {
+    width: 30%;
+    position: relative;
+    margin-left:12em;
+    font-style: italic;
+} 
+.cardme {
+    border: none;
+    border-radius: 18em;
+    display: inline block;
+    position: relative;
+    margin: 2em;
+   }
+.card-body {
+    border-end-end-radius: 1em;
+    border-end-start-radius: 1em;
+    background-color: rgb(205, 211, 211);
+}
+   li {
+       border-bottom-width:none;
+   }
+
+.best {
+    margin-top: 3em;
+    margin-left: 12em;
+    font-size: 1em;
+    font-weight: 300px;
+    position: relative;
+    font-style: italic;
+}
+.card-body1{
+    background-color:white; 
+    padding: 1em;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+.cardanime {
+    border-radius: 1em;
+    width: 450px;
+    height: 300px;
+    margin: 50px;
+    border-radius: 20px;
+    transition: all 1s;
+    animation: backwards ;
+}
+.cardanime:hover {
+    transform: scale(1.2);
+}
+
+footer{
+        background: rgba(232, 64, 82, 0.9);
+        width: 100;
+        height: 20em;
+        color: white;
+}
+.contact {
+    position: relative;
+    margin-left: 15em;
+    top: 5em;
+}
+.icon {
+    display: flex;
+    width: 1.5em;
+    height: 2%;
+    margin-left:25em;
+    position: relative;
+    bottom: 4em;
+
+
+}
+
+.float {
+    float: right;
+    position: relative;
+    bottom:10em;
+    text-align: right;
+    margin-right: 5em;
+}
